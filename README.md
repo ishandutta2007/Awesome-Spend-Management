@@ -5,7 +5,7 @@
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
   <a href="https://iiscord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Spend-Management/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Spend-Management?style=for-the-badge&logo=github&color=gold" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Spend-Management/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Spend-Management?style=for-the-badge&logo=github&color=gold" alt="GitHub_Stars" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Spend-Management/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Spend-Management?style=for-the-badge&logo=github&color=blue" alt="GitHub Forks" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Spend-Management/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-Spend-Management?style=for-the-badge&color=brightgreen" alt="Issues" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Spend-Management/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" alt="License" /></a>
@@ -74,69 +74,69 @@ The table below catalogs premier hosted and cloud-native spend management soluti
 
 Below is an expanded, vetted list of open-source projects covering spend management, procurement, purchase orders, budgeting, and corporate expense tracking. 
 
-Entries are **sorted descending by GitHub star count**. Each repository includes a social star badge linking directly to its **stargazers page**.
+Entries are **sorted descending by GitHub Stars_Count**. Each repository includes a social Stars_Badge linking directly to its **stargazers page**.
 
-1. **[Odoo](https://github.com/odoo/odoo)** [![GitHub stars](https://img.shields.io/github/stars/odoo/odoo?style=social&color=white)](https://github.com/odoo/odoo/stargazers)  
+1. **[Odoo](https://github.com/odoo/odoo)** [![GitHub_Stars](https://img.shields.io/github/stars/odoo/odoo?style=social&color=white)](https://github.com/odoo/odoo/stargazers)  
    *Python / JavaScript / PostgreSQL (LGPL-3.0)*  
    Modular open-source business suite with a dedicated **Purchase App** and **Expenses App**. Supports automated Request for Quotations (RFQs), purchase orders, vendor price lists, 3-way invoice matching, and departmental expense approvals.
 
-2. **[ERPNext](https://github.com/frappe/erpnext)** [![GitHub stars](https://img.shields.io/github/stars/frappe/erpnext?style=social&color=white)](https://github.com/frappe/erpnext/stargazers)  
+2. **[ERPNext](https://github.com/frappe/erpnext)** [![GitHub_Stars](https://img.shields.io/github/stars/frappe/erpnext?style=social&color=white)](https://github.com/frappe/erpnext/stargazers)  
    *Python / Frappe Framework / MariaDB (GPL-3.0)*  
    Comprehensive enterprise platform featuring an end-to-end **Buying & Procurement module**. Manages Material Requests, Supplier Quotations, Purchase Orders, Purchase Receipts, Landed Cost Vouchers, Supplier Scorecards, and real-time spend analytics dashboards.
 
-3. **[Firefly III](https://github.com/firefly-iii/firefly-iii)** [![GitHub stars](https://img.shields.io/github/stars/firefly-iii/firefly-iii?style=social&color=white)](https://github.com/firefly-iii/firefly-iii/stargazers)  
+3. **[Firefly III](https://github.com/firefly-iii/firefly-iii)** [![GitHub_Stars](https://img.shields.io/github/stars/firefly-iii/firefly-iii?style=social&color=white)](https://github.com/firefly-iii/firefly-iii/stargazers)  
    *PHP / Laravel / Docker (AGPL-3.0)*  
    Self-hosted financial manager and expense controller. Features automated rule-based transaction pipelines, strict budget limits, recurring expense detection, and multi-currency spend category governance.
 
-4. **[Invoice Ninja](https://github.com/invoiceninja/invoiceninja)** [![GitHub stars](https://img.shields.io/github/stars/invoiceninja/invoiceninja?style=social&color=white)](https://github.com/invoiceninja/invoiceninja/stargazers)  
+4. **[Invoice Ninja](https://github.com/invoiceninja/invoiceninja)** [![GitHub_Stars](https://img.shields.io/github/stars/invoiceninja/invoiceninja?style=social&color=white)](https://github.com/invoiceninja/invoiceninja/stargazers)  
    *PHP / Laravel / Flutter (AAL/OSL-3.0)*  
    Invoicing, vendor billing, and expense management platform. Enables businesses to track vendor bills, log categorized business expenses, attach digital receipts, and route approvals prior to disbursement.
 
-5. **[IDURAR ERP CRM](https://github.com/idurar/idurar-erp-crm)** [![GitHub stars](https://img.shields.io/github/stars/idurar/idurar-erp-crm?style=social&color=white)](https://github.com/idurar/idurar-erp-crm/stargazers)  
+5. **[IDURAR ERP CRM](https://github.com/idurar/idurar-erp-crm)** [![GitHub_Stars](https://img.shields.io/github/stars/idurar/idurar-erp-crm?style=social&color=white)](https://github.com/idurar/idurar-erp-crm/stargazers)  
    *Node.js / React / Express / MongoDB (MIT)*  
    Modern open-source business management system featuring purchase order creation, supplier expense tracking, payment milestone logging, and accounting ledgers.
 
-6. **[Ever Gauzy](https://github.com/ever-co/ever-gauzy)** [![GitHub stars](https://img.shields.io/github/stars/ever-co/ever-gauzy?style=social&color=white)](https://github.com/ever-co/ever-gauzy/stargazers)  
+6. **[Ever Gauzy](https://github.com/ever-co/ever-gauzy)** [![GitHub_Stars](https://img.shields.io/github/stars/ever-co/ever-gauzy?style=social&color=white)](https://github.com/ever-co/ever-gauzy/stargazers)  
    *TypeScript / NestJS / Angular / PostgreSQL (Fair-Code / Apache-2.0)*  
    Open enterprise management ecosystem featuring corporate expense logging, purchase orders, vendor contract oversight, and multi-organization budget controls.
 
-7. **[Crater](https://github.com/crater-invoice-inc/crater)** [![GitHub stars](https://img.shields.io/github/stars/crater-invoice-inc/crater?style=social&color=white)](https://github.com/crater-invoice-inc/crater/stargazers)  
+7. **[Crater](https://github.com/crater-invoice-inc/crater)** [![GitHub_Stars](https://img.shields.io/github/stars/crater-invoice-inc/crater?style=social&color=white)](https://github.com/crater-invoice-inc/crater/stargazers)  
    *PHP / Laravel / Vue.js / Mobile Apps (GPL-3.0)*  
    Open-source invoice and corporate expense tracking suite designed for growing teams. Features receipt capture, tax calculation, expense categorization, and detailed payment reporting.
 
-8. **[Dolibarr](https://github.com/Dolibarr/dolibarr)** [![GitHub stars](https://img.shields.io/github/stars/Dolibarr/dolibarr?style=social&color=white)](https://github.com/Dolibarr/dolibarr/stargazers)  
+8. **[Dolibarr](https://github.com/Dolibarr/dolibarr)** [![GitHub_Stars](https://img.shields.io/github/stars/Dolibarr/dolibarr?style=social&color=white)](https://github.com/Dolibarr/dolibarr/stargazers)  
    *PHP / MariaDB / PostgreSQL (GPL-3.0)*  
    Modular open-source ERP/CRM with dedicated modules for Supplier Commercial Proposals, Vendor Orders, Purchase Requisitions, Stock Receipts, and Spend Auditing.
 
-9. **[Expensify App](https://github.com/Expensify/App)** [![GitHub stars](https://img.shields.io/github/stars/Expensify/App?style=social&color=white)](https://github.com/Expensify/App/stargazers)  
+9. **[Expensify App](https://github.com/Expensify/App)** [![GitHub_Stars](https://img.shields.io/github/stars/Expensify/App?style=social&color=white)](https://github.com/Expensify/App/stargazers)  
    *React Native / TypeScript / Web (MIT)*  
    Official open-source client codebase for New Expensify. Offers chat-first expense reporting, receipt scanning via SmartScan OCR, split expense calculations, and corporate card feed integration.
 
-10. **[Open Collective](https://github.com/opencollective/opencollective)** [![GitHub stars](https://img.shields.io/github/stars/opencollective/opencollective?style=social&color=white)](https://github.com/opencollective/opencollective/stargazers)  
+10. **[Open Collective](https://github.com/opencollective/opencollective)** [![GitHub_Stars](https://img.shields.io/github/stars/opencollective/opencollective?style=social&color=white)](https://github.com/opencollective/opencollective/stargazers)  
     *TypeScript / React / Next.js / GraphQL (MIT)*  
     Transparent spend management, fiscal sponsorship, and collective expense platform. Features publicly accountable expense claims, automated invoice approval workflows, virtual debit card issuance, and payout rails.
 
-11. **[Rever](https://github.com/makerever/rever)** [![GitHub stars](https://img.shields.io/github/stars/makerever/rever?style=social&color=white)](https://github.com/makerever/rever/stargazers)  
+11. **[Rever](https://github.com/makerever/rever)** [![GitHub_Stars](https://img.shields.io/github/stars/makerever/rever?style=social&color=white)](https://github.com/makerever/rever/stargazers)  
     *Python / Django / React (MIT)*  
     AI-powered finance automation platform featuring a Vendor Master registry, purchase order issuance, bill management with 2-way PO-to-bill matching, approval workflows, and immutable audit logs.
 
-12. **[dubbl](https://github.com/dubbl-org/dubbl)** [![GitHub stars](https://img.shields.io/github/stars/dubbl-org/dubbl?style=social&color=white)](https://github.com/dubbl-org/dubbl/stargazers)  
+12. **[dubbl](https://github.com/dubbl-org/dubbl)** [![GitHub_Stars](https://img.shields.io/github/stars/dubbl-org/dubbl?style=social&color=white)](https://github.com/dubbl-org/dubbl/stargazers)  
     *TypeScript / API-First (AGPL-3.0)*  
     Self-hosted financial backbone providing accounts payable, purchase requisitions, landed cost tracking, expense claims with receipt OCR, and budget variance (Budget vs. Actual) analysis.
 
-13. **[FinPilot](https://github.com/Abhinavhaldiya/FinPilot)** [![GitHub stars](https://img.shields.io/github/stars/Abhinavhaldiya/FinPilot?style=social&color=white)](https://github.com/Abhinavhaldiya/FinPilot/stargazers)  
+13. **[FinPilot](https://github.com/Abhinavhaldiya/FinPilot)** [![GitHub_Stars](https://img.shields.io/github/stars/Abhinavhaldiya/FinPilot?style=social&color=white)](https://github.com/Abhinavhaldiya/FinPilot/stargazers)  
     *JavaScript / React / Node.js / PostgreSQL (MIT)*  
     Enterprise expense approval system featuring claim submission, OCR receipt data extraction, multi-currency conversion, amount-threshold approval hierarchies, and departmental budget caps.
 
-14. **[Shillinq](https://github.com/ConductionNL/shillinq)** [![GitHub stars](https://img.shields.io/github/stars/ConductionNL/shillinq?style=social&color=white)](https://github.com/ConductionNL/shillinq/stargazers)  
+14. **[Shillinq](https://github.com/ConductionNL/shillinq)** [![GitHub_Stars](https://img.shields.io/github/stars/ConductionNL/shillinq?style=social&color=white)](https://github.com/ConductionNL/shillinq/stargazers)  
     *PHP / Nextcloud App Ecosystem (EUPL-1.2)*  
     Business administration and procurement application for Nextcloud. Covers purchase orders, approval chains, supplier qualification questionnaires, budget forecasting, and contract spend dashboards.
 
-15. **[VendSync (BidFlow)](https://github.com/RavalMunjal/VendSync)** [![GitHub stars](https://img.shields.io/github/stars/RavalMunjal/VendSync?style=social&color=white)](https://github.com/RavalMunjal/VendSync/stargazers)  
+15. **[VendSync (BidFlow)](https://github.com/RavalMunjal/VendSync)** [![GitHub_Stars](https://img.shields.io/github/stars/RavalMunjal/VendSync?style=social&color=white)](https://github.com/RavalMunjal/VendSync/stargazers)  
     *React / Node.js / MongoDB (MIT)*  
     Full-stack procurement and vendor ERP. Handles RFQ creation, quotation side-by-side comparison, approval routing, PO generation, and real-time vendor spend analytics.
 
-16. **[procure-to-pay-system](https://github.com/manziosee/procure-to-pay-system)** [![GitHub stars](https://img.shields.io/github/stars/manziosee/procure-to-pay-system?style=social&color=white)](https://github.com/manziosee/procure-to-pay-system/stargazers)  
+16. **[procure-to-pay-system](https://github.com/manziosee/procure-to-pay-system)** [![GitHub_Stars](https://img.shields.io/github/stars/manziosee/procure-to-pay-system?style=social&color=white)](https://github.com/manziosee/procure-to-pay-system/stargazers)  
     *Django REST API / React TypeScript (MIT)*  
     Procure-to-pay workflow engine demonstrating multi-level approval hierarchies (Staff → Level 1 Approver → Level 2 Approver → Finance), automatic PO generation, and OCR invoice validation.
 
@@ -172,7 +172,7 @@ Contributions are warmly welcomed! Help us keep this directory accurate and comp
 3. 🔍 **Ensure specific data**:
    - Provide exact starting pricing (avoid generic tags like "Custom" or "Usage-based").
    - Detail free tier or trial duration and limits.
-   - For open-source repos, include the social star badge linking to the stargazers URL.
+   - For open-source repos, include the social Stars_Badge linking to the stargazers URL.
 4. 🚀 **Submit a Pull Request** with a brief summary of the changes.
 
 ---
