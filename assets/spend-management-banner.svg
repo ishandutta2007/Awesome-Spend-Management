@@ -1,0 +1,148 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="100%" height="100%" style="border-radius: 12px; overflow: hidden;">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090d16" />
+      <stop offset="45%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#1e1b4b" />
+    </linearGradient>
+
+    <linearGradient id="primary-glow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#818cf8" />
+      <stop offset="100%" stop-color="#c084fc" />
+    </linearGradient>
+
+    <linearGradient id="title-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="60%" stop-color="#f0f9ff" />
+      <stop offset="100%" stop-color="#bae6fd" />
+    </linearGradient>
+
+    <linearGradient id="card-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.9" />
+    </linearGradient>
+
+    <!-- Filters for Glow -->
+    <filter id="blur-large" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="70" />
+    </filter>
+    <filter id="blur-card" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000000" flood-opacity="0.5" />
+    </filter>
+  </defs>
+
+  <!-- Base Canvas -->
+  <rect width="1200" height="360" fill="url(#bg-grad)" />
+
+  <!-- Animated Ambient Glow Orbs -->
+  <g opacity="0.45">
+    <circle cx="220" cy="110" r="140" fill="#0284c7" filter="url(#blur-large)">
+      <animate attributeName="cx" values="200;260;200" dur="12s" repeatCount="indefinite" />
+      <animate attributeName="cy" values="110;80;110" dur="10s" repeatCount="indefinite" />
+      <animate attributeName="r" values="130;160;130" dur="8s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="980" cy="230" r="170" fill="#6366f1" filter="url(#blur-large)">
+      <animate attributeName="cx" values="980;920;980" dur="14s" repeatCount="indefinite" />
+      <animate attributeName="cy" values="230;270;230" dur="11s" repeatCount="indefinite" />
+      <animate attributeName="r" values="160;190;160" dur="9s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="600" cy="340" r="120" fill="#a855f7" filter="url(#blur-large)">
+      <animate attributeName="cy" values="340;300;340" dur="7s" repeatCount="indefinite" />
+      <animate attributeName="r" values="110;140;110" dur="9s" repeatCount="indefinite" />
+    </circle>
+  </g>
+
+  <!-- Tech Grid Background -->
+  <g opacity="0.08" stroke="#ffffff" stroke-width="1">
+    <line x1="0" y1="60" x2="1200" y2="60" />
+    <line x1="0" y1="120" x2="1200" y2="120" />
+    <line x1="0" y1="180" x2="1200" y2="180" />
+    <line x1="0" y1="240" x2="1200" y2="240" />
+    <line x1="0" y1="300" x2="1200" y2="300" />
+    <line x1="150" y1="0" x2="150" y2="360" />
+    <line x1="300" y1="0" x2="300" y2="360" />
+    <line x1="450" y1="0" x2="450" y2="360" />
+    <line x1="600" y1="0" x2="600" y2="360" />
+    <line x1="750" y1="0" x2="750" y2="360" />
+    <line x1="900" y1="0" x2="900" y2="360" />
+    <line x1="1050" y1="0" x2="1050" y2="360" />
+  </g>
+
+  <!-- Flowing Dynamic Data / Spend Connection Curve -->
+  <path d="M 50 310 C 300 240, 450 330, 750 250 C 950 190, 1050 220, 1150 160" 
+        fill="none" stroke="url(#primary-glow)" stroke-width="2.5" stroke-dasharray="8 6" opacity="0.6">
+    <animate attributeName="stroke-dashoffset" from="140" to="0" dur="4s" repeatCount="indefinite" />
+  </path>
+
+  <!-- Animated Floating Financial Badges (Placed off-center to avoid title overlay) -->
+  <!-- Top Left Pill -->
+  <g transform="translate(60, 42)">
+    <animateTransform attributeName="transform" type="translate" values="60,42; 60,35; 60,42" dur="5s" repeatCount="indefinite" />
+    <rect width="186" height="34" rx="17" fill="url(#card-grad)" stroke="#38bdf8" stroke-width="1.2" stroke-opacity="0.4" filter="url(#blur-card)" />
+    <circle cx="18" cy="17" r="5" fill="#38bdf8">
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite" />
+    </circle>
+    <text x="32" y="22" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#bae6fd">💳 Corporate Cards</text>
+  </g>
+
+  <!-- Top Right Pill -->
+  <g transform="translate(940, 42)">
+    <animateTransform attributeName="transform" type="translate" values="940,42; 940,49; 940,42" dur="6s" repeatCount="indefinite" />
+    <rect width="195" height="34" rx="17" fill="url(#card-grad)" stroke="#818cf8" stroke-width="1.2" stroke-opacity="0.4" filter="url(#blur-card)" />
+    <circle cx="18" cy="17" r="5" fill="#818cf8">
+      <animate attributeName="opacity" values="1;0.3;1" dur="2.5s" repeatCount="indefinite" />
+    </circle>
+    <text x="32" y="22" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#c7d2fe">🔄 Procure-to-Pay (P2P)</text>
+  </g>
+
+  <!-- Bottom Left Pill -->
+  <g transform="translate(50, 275)">
+    <animateTransform attributeName="transform" type="translate" values="50,275; 50,268; 50,275" dur="6.5s" repeatCount="indefinite" />
+    <rect width="185" height="34" rx="17" fill="url(#card-grad)" stroke="#34d399" stroke-width="1.2" stroke-opacity="0.4" filter="url(#blur-card)" />
+    <circle cx="18" cy="17" r="5" fill="#34d399">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="2.8s" repeatCount="indefinite" />
+    </circle>
+    <text x="32" y="22" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#a7f3d0">📑 Expense Automation</text>
+  </g>
+
+  <!-- Bottom Right Pill -->
+  <g transform="translate(955, 275)">
+    <animateTransform attributeName="transform" type="translate" values="955,275; 955,282; 955,275" dur="5.5s" repeatCount="indefinite" />
+    <rect width="185" height="34" rx="17" fill="url(#card-grad)" stroke="#c084fc" stroke-width="1.2" stroke-opacity="0.4" filter="url(#blur-card)" />
+    <circle cx="18" cy="17" r="5" fill="#c084fc">
+      <animate attributeName="opacity" values="1;0.4;1" dur="2.2s" repeatCount="indefinite" />
+    </circle>
+    <text x="32" y="22" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#e9d5ff">📊 Real-Time Budgets</text>
+  </g>
+
+  <!-- FOREGROUND HERO CONTENT (Guaranteed never covered or obscured) -->
+  <g id="foreground-hero" transform="translate(600, 115)" text-anchor="middle">
+    <!-- Super Category Tag -->
+    <rect x="-140" y="-30" width="280" height="28" rx="14" fill="#1e293b" stroke="#38bdf8" stroke-width="1" stroke-opacity="0.5" />
+    <text x="0" y="-11" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="1.5" fill="#38bdf8">FINTECH &amp; PROCUREMENT</text>
+
+    <!-- Main Title -->
+    <text x="0" y="44" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="44" font-weight="900" letter-spacing="-0.5" fill="url(#title-grad)">Awesome Spend Management</text>
+
+    <!-- Subtitle Line 1 -->
+    <text x="0" y="80" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="16" font-weight="500" fill="#94a3b8">
+      Curated directory of enterprise SaaS platforms &amp; open-source projects
+    </text>
+
+    <!-- Subtitle Line 2 / Feature Pills -->
+    <text x="0" y="104" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13" font-weight="500" fill="#64748b">
+      Procurement Spend Control • Accounts Payable • Expense Policies • Corporate Cards
+    </text>
+
+    <!-- Status & Trust Badges Strip -->
+    <g transform="translate(0, 130)">
+      <rect x="-240" y="0" width="480" height="26" rx="13" fill="#0f172a" stroke="#334155" stroke-width="1" />
+      <circle cx="-218" cy="13" r="4" fill="#22c55e" />
+      <text x="-205" y="17" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11" font-weight="600" fill="#94a3b8" text-anchor="start">
+        Updated October 2026  •  SaaS Pricing &amp; Limits  •  Open-Source Ecosystem
+      </text>
+    </g>
+  </g>
+</svg>
